@@ -1,0 +1,14 @@
+W:\dotNet\General\misc_programming_problems\bin\Release\net8.0\CSharp Problems.exe
+W:\dotNet\General\misc_programming_problems\bin\Release\net8.0\CSharp Problems.deps.json
+W:\dotNet\General\misc_programming_problems\bin\Release\net8.0\CSharp Problems.runtimeconfig.json
+W:\dotNet\General\misc_programming_problems\bin\Release\net8.0\CSharp Problems.dll
+W:\dotNet\General\misc_programming_problems\bin\Release\net8.0\CSharp Problems.pdb
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\CSharp Problems.GeneratedMSBuildEditorConfig.editorconfig
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\CSharp Problems.AssemblyInfoInputs.cache
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\CSharp Problems.AssemblyInfo.cs
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\CSharp Problems.csproj.CoreCompileInputs.cache
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\CSharp Problems.dll
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\refint\CSharp Problems.dll
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\CSharp Problems.pdb
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\CSharp Problems.genruntimeconfig.cache
+W:\dotNet\General\misc_programming_problems\obj\Release\net8.0\ref\CSharp Problems.dll

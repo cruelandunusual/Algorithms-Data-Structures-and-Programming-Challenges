@@ -1,4 +1,5 @@
 # Algorithms and data structures
+
 <!-- Front matter -->
 A repository of my solutions to various programming problems and exercises from various sources, among others:  
 * <a href="https://leetcode.com/" target="_blank">LeetCode</a>
@@ -8,6 +9,12 @@ A repository of my solutions to various programming problems and exercises from 
 
 <div align="center">
 
+![alt text](.assets/c-original.png)
+![alt text](.assets/cplusplus-original.png)
+![alt text](.assets/csharp-original.png)
+![alt text](.assets/javascript-original.png)
+
+
 <img src='https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/c/c-original.svg' width="64" height="64" alt="C logo featuring a stylized letter C in a blue gradient, representing the C programming language.">
 
 <img src='https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/cplusplus/cplusplus-original.svg' width="64" height="64" alt="C++ logo featuring a stylized letter C with two plus symbols in a blue gradient, representing the C sharp programming language.">
@@ -16,5 +23,6 @@ A repository of my solutions to various programming problems and exercises from 
 
 <img src='https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/javascript/javascript-original.svg' width="64" height="64" alt="JavaScript logo featuring a bold yellow square with stylized black letters JS in the center, representing the JavaScript programming language.">
 
-
 </div>
+
+---

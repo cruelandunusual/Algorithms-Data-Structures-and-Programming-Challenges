@@ -1,5 +1,6 @@
 
-/* 
+// Grids and Histograms exercises
+// These exercises are from Eloquent JavaScript, Chapter 1, Exercise 13
 // Working on that exercise above prompted me to dig out
 // the old C code I wrote to print a histogram vertically
 const histogram = [4, 3, 7, 10, 3, 9, 2, 1];
@@ -23,4 +24,4 @@ for (let y = max; y > 0; y--) { // loop down from highest value to lowest
     console.log(starStr);
     starStr = "";
 }
- */
+

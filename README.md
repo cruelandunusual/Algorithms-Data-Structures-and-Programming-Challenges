@@ -8,12 +8,12 @@ A repository of my solutions to various programming problems and exercises from 
 * <a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>
 
 <div align="center">
-
+<!--
 ![alt text](.assets/c-original.png)
 ![alt text](.assets/cplusplus-original.png)
 ![alt text](.assets/csharp-original.png)
 ![alt text](.assets/javascript-original.png)
-
+-->
 
 <img src='https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/c/c-original.svg' width="64" height="64" alt="C logo featuring a stylized letter C in a blue gradient, representing the C programming language.">
 
@@ -26,3 +26,5 @@ A repository of my solutions to various programming problems and exercises from 
 </div>
 
 ---
+
+## Contents

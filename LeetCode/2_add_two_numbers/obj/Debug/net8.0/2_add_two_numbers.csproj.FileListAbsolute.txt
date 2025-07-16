@@ -1,4 +1,0 @@
-W:\Leetcode\LinkedList_maths\obj\Debug\net8.0\2_add_two_numbers.GeneratedMSBuildEditorConfig.editorconfig
-W:\Leetcode\LinkedList_maths\obj\Debug\net8.0\2_add_two_numbers.AssemblyInfoInputs.cache
-W:\Leetcode\LinkedList_maths\obj\Debug\net8.0\2_add_two_numbers.AssemblyInfo.cs
-W:\Leetcode\LinkedList_maths\obj\Debug\net8.0\2_add_two_numbers.csproj.CoreCompileInputs.cache

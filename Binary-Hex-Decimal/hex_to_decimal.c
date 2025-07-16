@@ -1,6 +1,6 @@
 /*
   Self-assigned exercise: write a program to convert
-  decimal numbers to their binary equivalents.
+  hexadecimal numbers to their decimal equivalents.
 */
 
 #include <stdio.h>

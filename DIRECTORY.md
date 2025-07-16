@@ -2,8 +2,8 @@
  Various number conversion exercises originally from _**K&R**_, but I have implemented them in both `C` and `JavaScript`.
   * [Hexadecimal to Decimal integer](Binary-Hex-Decimal/CPROG_ex2-3_hex_to_integer.c) -- **C**
   * [Hexadecimal to Decimal integer v2](Binary-Hex-Decimal/hex_to_decimal.c) -- **C**
-  * [Decimal to Binary](Binary-Hex-Decimal/decimal_to_binary.c) -- **C**
-  * [Decimal to Decimal integer](Binary-Hex-Decimal/decimal_to_binary.js) -- **JavaScript**
+  * [Decimal to Binary integer](Binary-Hex-Decimal/decimal_to_binary.c) -- **C**
+  * [Decimal to Binary integer](Binary-Hex-Decimal/decimal_to_binary.js) -- **JavaScript**
 
 ### Bit-Manipulation  
 Various bitwise and bit-shifting exercises from _**K&R**_.

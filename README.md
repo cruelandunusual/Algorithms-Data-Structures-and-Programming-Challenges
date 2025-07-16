@@ -2,10 +2,10 @@
 
 <!-- Front matter -->
 A repository of my solutions to various programming problems and exercises from various sources, among others:  
-* <a href="https://leetcode.com/" target="_blank">LeetCode</a>
-* <a href="https://en.wikipedia.org/wiki/The_C_Programming_Language" target="_blank">The C Programming Language (aka the K&amp;R book)</a>
-* <a href="https://nostarch.com/thinklikeaprogrammer" target="_blank">Think Like a Programmer</a>
-* <a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>
+* [LeetCode](https://leetcode.com/)
+* [The C Programming Language (aka K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)  
+* [Think Like a Programmer](https://nostarch.com/thinklikeaprogrammer)  
+* [Eloquent JavaScript](https://eloquentjavascript.net/)
 
 <div align="center">
 <!--
@@ -27,4 +27,4 @@ A repository of my solutions to various programming problems and exercises from 
 
 ---
 
-## Contents
+[Contents](DIRECTORY.md)

@@ -1,7 +1,7 @@
-# Algorithms and data structures
+# Algorithms, data structures and programming challenges
 
 <!-- Front matter -->
-A repository of my solutions to various programming problems and exercises from various sources, among others:  
+A repository of my solutions to various programming problems, exercises and challenges from various sources, among others:  
 * [LeetCode](https://leetcode.com/)
 * [The C Programming Language (aka K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)  
 * [Think Like a Programmer](https://nostarch.com/thinklikeaprogrammer)  
@@ -28,3 +28,5 @@ A repository of my solutions to various programming problems and exercises from 
 ---
 
 [Contents](DIRECTORY.md)
+
+

@@ -1,86 +1,4 @@
 /*
-Aborted attempt at using recursion to split a
-string recursively into chunks of two cells,
-compute the results of each two-cell unit,
-and then compute the result of the whole thing.
-I might return to this, it's an interesting challenge.
-*/
-/* function binary_to_decimal(num_as_bin) {
-    let left = "";
-    let right = ""
-    let split = num_as_bin.length / 2;
-    for (let i = 0; i < split; i++) {
-        left += num_as_bin[i];
-        right += num_as_bin[i + split];
-    }
-    left = Number(left);
-    right = Number(right);
-    return (2 * left) + right;
-} */
-
-/////////////////////////////////////////////////////////////
-
-/*
-Classic binary to decimal algorithm,
-multiplying the value of each position
-by an increasing power of two.
-*/
-
-function binary_to_decimal(binary) {
-    let result = 0;
-    let multiplier = 1;
-    for (let i = binary.length - 1; i >= 0; i--) {
-        result += binary[i] * multiplier;
-        multiplier *= 2;
-    }
-    return result;
-}
-
-// myString = "1101010101010010101010101010";
-// console.log(binary_to_decimal(myString));
-
-
-/////////////////////////////////////////////////////////////
-
-/*
-I think this algorithm comes from K&R.
-The NewArray function is something I found on stackexchange.
-*/
-/*
-function decimal_to_binary(decimal) {
-    const bitlength = 16;
-    let bit = '0';
-    const binary = NewArray(bitlength, bit);
-    for (let i = bitlength-1; i >= 0; decimal = Math.floor(decimal / 2), i--) {
-        if (decimal % 2 == 0) {
-            bit = '0';
-        }
-        else {
-            bit = '1';
-        }
-        binary[i] = bit;
-    }
-    let binaryStr = '';
-    for (let i = 0; i < bitlength; i++) {
-        binaryStr += binary[i];
-    }
-    return binaryStr;
-}
-
-function NewArray(size, data) {
-    let x = [];
-    for (let i = 0; i < size; i++) {
-        x[i] = data;
-    }
-    return x;
-}
-
-// console.log(decimal_to_binary(process.argv[2]));
-*/
-
-/////////////////////////////////////////////////////////////
-
-/*
 My idea here was to use a lookup table containing strings storing the first 10 whole
 numbers as bit patterns. The algorithm adds the least significant bit for each
 operand, stores the result incrementally in a string; after computation is finished
@@ -88,6 +6,9 @@ the string is reversed so that the least significant bit is correctly at the rig
 Operands can be stacked up by calling the function as a parameter to another instance
 of calling the function, to overcome the limitation of adding just two operands at once.
 */
+
+import { binary_to_decimal } from './decimal_to_binary1.js';
+
 let lookUpTable = {
     b0: "0000",
     b1: "0001",
@@ -152,13 +73,13 @@ function addBinaryNumbers(op1, op2, carry = 0) {
 
 console.log(binary_to_decimal((addBinaryNumbers(lookUpTable.b5,addBinaryNumbers(lookUpTable.b2, addBinaryNumbers(lookUpTable.b1, lookUpTable.b6))))));
 
-//console.log((addBinaryNumbers(lookUpTable.b5,addBinaryNumbers(lookUpTable.b2, addBinaryNumbers(lookUpTable.b1, lookUpTable.b6)))));
+console.log((addBinaryNumbers(lookUpTable.b5,addBinaryNumbers(lookUpTable.b2, addBinaryNumbers(lookUpTable.b1, lookUpTable.b6)))));
 
 
 /*
 pass the whole multiplicand and one digit from the multiplier
 compute the result for each multiplier
-add the results together (using my add function above?)
+add the results together (using my add function)
 */
 function multiplyBinaryNumbers(multiplier, multiplicand, carry = 0) {
     let result = 0;

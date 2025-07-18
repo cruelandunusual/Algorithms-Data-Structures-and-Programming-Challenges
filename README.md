@@ -1,12 +1,12 @@
 # Algorithms, data structures and programming challenges
 
-![Linux](https://img.shields.io/badge/-Linux-grey?logo=linux)
-![macOS](https://img.shields.io/badge/-macOS-black?logo=apple)
-![Windows](https://img.shields.io/badge/-Windows-red)
-<img width="32" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
-<img width="32" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-<img width="32" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
-<img width="32" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+<img style="vertical-align: middle; height: 20px; width: 59px;" src="https://img.shields.io/badge/-Linux-grey?logo=linux" />
+<img style="vertical-align: middle; height: 20px; width: 59px;" src="https://img.shields.io/badge/-macOS-black?logo=apple" />
+<img style="vertical-align: middle; height: 20px; width: 59px;" src="https://img.shields.io/badge/-Windows-red" />
+<img width="32" height="32" style="vertical-align: middle; height: 32px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+<img width="32" height="32" style="vertical-align: middle; height: 32px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+<img width="32" height="32" style="vertical-align: middle; height: 32px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+<img width="32" height="32" style="vertical-align: middle; height: 32px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
 
 
 ## Description
@@ -18,8 +18,8 @@ A repository of my solutions to various programming problems, exercises and chal
 * [Think Like a Programmer](https://nostarch.com/thinklikeaprogrammer)  
 * [Eloquent JavaScript](https://eloquentjavascript.net/)
 
-Some of the code is self-assigned personal challenges (i.e. I thought of the idea myself, although it may have been inspired by an exercise from another source).  
-The [notes](NOTES.md) page gives more information on the code, including the source.
+Some of the code is self-assigned personal challenges (i.e. the idea is my own although it may have been inspired by an exercise from another sources).  
+The [notes](NOTES.md) page gives more information on the code, including the sources.
 
 
 ## Directory structure

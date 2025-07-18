@@ -23,9 +23,9 @@ The classic programming exercise; this version is from _**Eloquent JavaScript**_
 
 ### Grids and Histograms
 Various exercises to print grids and histograms to the terminal.  
-I first came across the histogram exercise in _**K&R**_ and implemented it in `C`;  
-since then I've re-implemented it in `C#` and `JavaScript`.
-*(As the question in the book originally states, [a vertical orientation is more challenging](Grids-and-Histograms/CPROG_ex1-13_histogram_lengths_of_words.c#L4).)*
+I first came across the histogram exercise in _**K&R**_ `(page number?)` and implemented it in `C`;  
+since then I've re-implemented it in `C#` and `JavaScript`.  
+It's simple enough to implement a horizontal solution; as the exercise in the book originally states, [a vertical orientation is more challenging](Grids-and-Histograms/CPROG_ex1-13_histogram_lengths_of_words.c#L4).
   * [histogram of word length](Grids-and-Histograms/CPROG_ex1-13_histogram_lengths_of_words.c) -- **C**
   * [histogram of char frequency](Grids-and-Histograms/CPROG_ex1-14_histogram_char_frequency.c) -- **C**
   * [vertical histogram](Grids-and-Histograms/js_histograms.js) -- **JavaScript**

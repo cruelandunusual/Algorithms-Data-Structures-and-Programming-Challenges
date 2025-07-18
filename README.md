@@ -18,7 +18,7 @@ A repository of my solutions to various programming problems, exercises and chal
 * [Think Like a Programmer](https://nostarch.com/thinklikeaprogrammer)  
 * [Eloquent JavaScript](https://eloquentjavascript.net/)
 
-Some of the code is self-assigned personal challenges (i.e. the idea is my own although it may have been inspired by an exercise from another sources).  
+Some of the code is self-assigned personal challenges (i.e. the idea is my own although it may have been inspired by an exercise from another source).  
 The [notes](NOTES.md) page gives more information on the code, including the sources.
 
 

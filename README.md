@@ -29,6 +29,6 @@ The [contents](DIRECTORY.md) page lists the files and folders with a brief descr
 ## Running the code
 
 * For **C/C++** files simply compile with `gcc` and execute the resulting `a.out` or `a.exe` file.  
-(You may need to enable execution permission of the compiled file on your platform.)
-* For **C#** files, use `dotnet script <file.cs>` instead of _csc file.cs_; csc invokes an older version of the interpreter which doesn't execute modern C# syntax.  
-* For **JavaScript** files, you'll need Node.js; invoke a script with `node <file.js>`
+(You may need to enable execution permission of the compiled file on your platform.)  
+* For **C#** files, use `dotnet script <file.cs>`.  
+* For **JavaScript** files, you'll need Node.js; invoke a script with `node <file.js>`  

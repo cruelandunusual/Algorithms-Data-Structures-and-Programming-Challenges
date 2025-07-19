@@ -25,3 +25,13 @@ This way arbitrarily large integers can be represented, with a new node added to
   * Once I decided to implement addition and subtraction I realised I only needed to traverse the list in one direction, so the list node definition is singly linked from here.
     * [linked list integers v2 (with arithmetic operations)](Linked-List-Arithmetic/Linked-List-Numbers/TLAP_linked_list_numbers.cpp) -- **C++**
     * [linked list signed integers (with arithmetic operations)](Linked-List-Arithmetic/Linked-List-Numbers-Signed) -- **C++**
+
+
+
+<!-- Markdown test area -->
+
+
+## Markdown test area
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.

@@ -1,11 +1,7 @@
 ﻿
 /*
-Some solutions to LeetCode problems. I've submitted them on LeetCode.com
-but did all my work in Visual Studio so I'm saving this to GitHub for posterity.
-*/
-
-/*
-20.Valid Parentheses
+LeetCode Problem 20: Valid Parentheses
+https://leetcode.com/problems/valid-parentheses/
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:

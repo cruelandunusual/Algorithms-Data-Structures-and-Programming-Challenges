@@ -47,11 +47,11 @@ This way arbitrarily large integers can be represented, with a new node added to
     * [linked list integers v1](Linked-List-Arithmetic/Double-Linked-List-Numbers/TLAP_double_linked_list_numbers.cpp) (doubly linked list solution) -- **C++**
   * Once I decided to implement addition and subtraction I realised I only needed to traverse the list in one direction, so the list node definition is singly linked from here.
     * [linked list integers v2 (with arithmetic operations)](Linked-List-Arithmetic/Linked-List-Numbers/TLAP_linked_list_numbers.cpp) -- **C++**
-    * [linked list signed integers (with arithmetic operations)](Linked-List-Arithmetic/Linked-List-Numbers-Signed) -- **C++**
+    * [linked list signed integers (with arithmetic operations)](Linked-List-Arithmetic/Linked-List-Numbers-Signed/TLAP_linked_list_numbers_signed.cpp) -- **C++**
 
 ### Puzzles
 These are problems chosen at random from _**LeetCode**_.
-  * [Two Sum](Puzzles/1_two_sum/1_two_sum.cs) -- **C#**
-  * [Valid Parentheses](Puzzles/20_valid_parentheses/20_valid_parentheses.cs) -- **C#**
-  * [Find Words Containing Character](Puzzles/2942_find_words_containing_character/2942_find_words_containing_character.cs) -- **C#**
-  * [FizzBuzz](Puzzles/Fizz-Buzz/FizzBuzz.js)
+  * [Two Sum](Puzzles/CSharp/1_two_sum.cs) -- **C#**
+  * [Valid Parentheses](Puzzles/CSharp/20_valid_parentheses.cs) -- **C#**
+  * [Find Words Containing Character](Puzzles/CSharp/2942_find_words_containing_character.cs) -- **C#**
+  * [FizzBuzz](Puzzles/JavaScript/FizzBuzz.js)

@@ -50,8 +50,8 @@ This way arbitrarily large integers can be represented, with a new node added to
     * [linked list signed integers (with arithmetic operations)](Linked-List-Arithmetic/Linked-List-Numbers-Signed) -- **C++**
 
 ### Puzzles
-These are problems picked at random from _**LeetCode**_.
-  * [Two Sum](LeetCode/1_two_sum/1_two_sum.cs) -- **C#**
-  * [Valid Parentheses](LeetCode/20_valid_parentheses/20_valid_parentheses.cs) -- **C#**
-  * [Find Words Containing Character](LeetCode/2942_find_words_containing_character/2942_find_words_containing_character.cs) -- **C#**
-
+These are problems chosen at random from _**LeetCode**_.
+  * [Two Sum](Puzzles/1_two_sum/1_two_sum.cs) -- **C#**
+  * [Valid Parentheses](Puzzles/20_valid_parentheses/20_valid_parentheses.cs) -- **C#**
+  * [Find Words Containing Character](Puzzles/2942_find_words_containing_character/2942_find_words_containing_character.cs) -- **C#**
+  * [FizzBuzz](Puzzles/Fizz-Buzz/FizzBuzz.js)

@@ -30,6 +30,7 @@ It's simple enough to implement a horizontal solution; as the exercise in the bo
   * [histogram of word length](Grids-and-Histograms/C/CPROG_ex1-13_histogram_lengths_of_words.c) -- **C**
   * [histogram of char frequency](Grids-and-Histograms/C/CPROG_ex1-14_histogram_char_frequency.c) -- **C**
   * [vertical histogram](Grids-and-Histograms/CSharp/histogram.cs) -- **C#**
+  * [two-dimensional arrays](Grids-and-Histograms/CSharp/two_dimensional_arrays.cs) -- **C#**
   * [vertical histogram](Grids-and-Histograms/JavaScript/js_histograms.js) -- **JavaScript**
   * [chess grids](Grids-and-Histograms/JavaScript/chess_grids.js) -- **JavaScript**
 

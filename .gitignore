@@ -15,6 +15,7 @@ x86/
 **/.vs
 *.obj
 *.exe
+*.out
 *.pdb
 *.idb
 *.ilk

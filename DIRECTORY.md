@@ -26,7 +26,7 @@ Various bitwise and bit-shifting exercises from _**K&R**_.
 Various exercises to print grids and histograms to the terminal.  
 I first came across the histogram exercise in _**K&R**_ and implemented it in **C**;  
 since then I've re-implemented it in **C#** and **JavaScript**.  
-It's simple enough to implement a horizontal solution; as the exercise in the book originally states, [a vertical orientation is more challenging](Grids-and-Histograms/CPROG_ex1-13_histogram_lengths_of_words.c#L4).
+It's simple enough to implement a horizontal solution; as the exercise in the book originally states, [a vertical orientation is more challenging](Grids-and-Histograms/C/CPROG_ex1-13_histogram_lengths_of_words.c#L4).
   * [histogram of word length](Grids-and-Histograms/C/CPROG_ex1-13_histogram_lengths_of_words.c) -- **C**
   * [histogram of char frequency](Grids-and-Histograms/C/CPROG_ex1-14_histogram_char_frequency.c) -- **C**
   * [vertical histogram](Grids-and-Histograms/CSharp/histogram.cs) -- **C#**

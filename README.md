@@ -1,4 +1,5 @@
 # Algorithms, data structures and programming challenges
+
 <div align="left">
 <img style="vertical-align: middle; height: 20px; width: 59px;" src="https://img.shields.io/badge/-Linux-grey?logo=linux" />
 <img style="vertical-align: middle; height: 20px; width: 59px;" src="https://img.shields.io/badge/-macOS-black?logo=apple" />

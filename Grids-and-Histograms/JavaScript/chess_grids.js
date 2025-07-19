@@ -17,7 +17,7 @@ When you have a program that generates this pattern, define a binding size
 of the given width and height.
 */
 
-/* let gridLen = 12;
+let gridLen = 12;
 let chessStr = "";
 let blank = true; // start the grid with a blank square
 for (let y = 0; y < gridLen; y++) { // outer loop for height
@@ -37,5 +37,5 @@ for (let y = 0; y < gridLen; y++) { // outer loop for height
     }
     // if it's an odd x*x then leave blank flipped for the next line
 }
-console.log(chessStr); */
+console.log(chessStr);
 

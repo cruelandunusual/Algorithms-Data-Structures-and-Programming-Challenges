@@ -1,65 +1,57 @@
-/*
+// This code is a simple demonstration of how to print a 2D array in both histogram and linear styles.
+// It initializes a 2D array with sequential numbers and prints it in two different formats.
 
-Random rand = new Random();
+int[] histogram = new int[8] { 4, 3, 7, 10, 3, 9, 2, 1 }; // initialise a random array of integers
 
-int width = 3, height = 2;
-int[,] table = new int[width, height];
-
-int counter = 0;
-for (int j = 0; j < table.GetLength(0); j++)
+void printArray_HistogramStyle(int[] list)
 {
-    for (int k = 0; k < table.GetLength(1); k++)
+    int histMax = 0;
+    for (int i = 0; i < list.Length; i++)
     {
-        table[j, k] = ++counter;
-    }
-}
-Console.WriteLine("printing array as a histogram");
-
-printArray_HistogramStyle(table);
-Console.WriteLine("\n");
-Console.WriteLine("printing array linearly");
-printArray_LinearStyle(table);
-Console.WriteLine("\n");
-
-
-void printArray_LinearStyle(int[,] t)
-{
-    for (int j = 0; j < t.GetLength(0); j++)
-    {
-        for (int k = 0; k < t.GetLength(1); k++)
+        if (list[i] > histMax)
         {
-            Console.Write(t[j, k] + " ");
+            histMax = list[i]; // store the largest number in the array
         }
-        //Console.WriteLine();
     }
-}
 
-void printArray_HistogramStyle(int[,] t)
-{
-    for (int k = 0; k < t.GetLength(1); k++)
+    string starStr = ""; // initialise a string for printing each line
+    for (int x = histMax; x > 0; x--)
     {
-        for (int j = 0; j < t.GetLength(0); j++)
+        for (int y = 0; y < list.Length; y++)
         {
-            Console.Write(t[j, k] + " ");
+            if (list[y] < x)
+            {
+                starStr += "  "; // append space if current element is less than max
+            }
+            else
+            {
+                starStr += "* "; // else append a star
+            }
         }
-        Console.WriteLine();
+        Console.WriteLine(starStr);
+        starStr = ""; // reset the string for the next line
     }
 
 }
 
-
-//List<String> myList = new List<String>();
-List<String> myList = []; //abbreviated version of new List<String>()
-while (myList.Count < 50)
+void printArray_LinearStyle(int[] list)
 {
-    myList.Add("*");
+    for (int i = 0; i < list.Length; i++)
+    {
+        for (int j = 0; j < list[i]; j++)
+        {
+            Console.Write("* "); // print asterisks for each element in the array
+        }
+        Console.WriteLine(); // newline for each element
+    }
+    
 }
 
-for (int i = 0; i < myList.Count; i++)
-{
-    if (i % 10 == 0) { Console.WriteLine(); }
-    Console.Write(myList[i]);
-}
 
+Console.WriteLine("printing an array of random ints as a vertical histogram:");
+printArray_HistogramStyle(histogram);
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("printing the array as a linear histogram:");
+printArray_LinearStyle(histogram);  
 
-*/

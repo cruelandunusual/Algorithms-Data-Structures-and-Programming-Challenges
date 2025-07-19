@@ -11,9 +11,7 @@
 
 ## Description
 
-A repository of my solutions to various programming problems, exercises and challenges from various sources, among others:  
-<!-- Front matter -->
-A repository of my solutions to various programming problems, exercises and challenges from various sources, among others:  
+A repository of my solutions to various programming problems, exercises and challenges from various sources, including:  
 * [LeetCode](https://leetcode.com/)
 * [The C Programming Language (aka K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)  
 * [Think Like a Programmer](https://nostarch.com/thinklikeaprogrammer)  

@@ -1,15 +1,18 @@
 ## Notes
-These are solutions to programming problems and exercises from various sources;  
-the Linked-List-Arithmetic idea is self-assigned; an idea which occurred to me while working through the linked list chapter of *Think Like a Programmer*.
-
+I've used many sources throughout my time as a programmer - both as a hobbyist and in my earlier professional career.  
+Some noteworthy sources are:
 
 <div align="center">
 
-![alt text](.assets/leetcode_alpha.png)
-![alt text](.assets/K&R_cover_small.png)
-![alt text](.assets/think-like-a-programmer_cover_small.png)
-![alt text](.assets/EloquentJavaScript_cover_small.jpg)
-
+![LeetCode][leetcode]
+![The C Programming Language][k&r]
+![Think Like A Programmer][tlap]
+![Eloquent JavaScript][ejs]
+<br>
+![Computation and Programming in Python][cppy]
+![2D Graphics Programming for Games][2dgpg]
+![Programming Challenges Training Manual][pctm]
+![Learning C# by Programming Games][lcpg]
 
 </div>
 
@@ -28,10 +31,14 @@ This way arbitrarily large integers can be represented, with a new node added to
 
 
 
-<!-- Markdown test area -->
+<!-- link shortcuts -->
 
 
-## Markdown test area
-
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+[leetcode]: .assets/leetcode_alpha.png
+[k&r]: .assets/K&R_cover_small.png
+[ejs]: .assets/EloquentJavaScript_cover_small.jpg
+[tlap]: .assets/think-like-a-programmer_cover_small.png
+[2dgpg]: .assets/2d-graphics-programming.jpg
+[pctm]: .assets/programming-challenges-training-manual.jpg
+[lcpg]: .assets/learning-csharp-programming-games.jpg
+[cppy]: .assets/computation-and-programming-python.jpg

@@ -21,7 +21,7 @@ A repository of my solutions to various programming problems, exercises and chal
 
 Some of the code is self-assigned personal challenges (i.e. the idea is my own, although it may have been inspired by an exercise from another source).  
 
-The [wiki][notes] page gives more information on the code, the source of the problem and my approach to solving it.  
+The [wiki][wiki] page gives more information on the code, the source of the problem and my approach to solving it.  
 
 The [contents](DIRECTORY.md) page lists the files and folders with a brief description of each category and which language I used to solve a particular problem; the category names are fairly self-explanatory anyway.  
 
@@ -39,4 +39,4 @@ While I'm still fascinated by low-level code and bit-manipulation challenges, my
 
 <!-- External Links -->
 
-[notes]: https://github.com/cruelandunusual/Algorithms-Data-Structures-and-Programming-Challenges/wiki
+[wiki]: https://github.com/cruelandunusual/Algorithms-Data-Structures-and-Programming-Challenges/wiki

@@ -31,7 +31,7 @@ While I'm still fascinated by low-level code and bit-manipulation challenges, my
 
 ## Running the code
 
-* For **C/C++** files simply compile with `gcc` and execute the resulting `a.out` or `a.exe` file.  
+* For **C/C++** files simply compile with `gcc/g++` and execute the resulting `a.out` or `a.exe` file.  
 (You may need to enable execution permission of the compiled file on your platform.)  
 * For **C#** files, use `dotnet script <file.cs>`.  
 * For **JavaScript** files, you'll need Node.js; invoke a script with `node <file.js>`  

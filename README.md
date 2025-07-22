@@ -21,11 +21,11 @@ A repository of my solutions to various programming problems, exercises and chal
 
 Some of the code is self-assigned personal challenges (i.e. the idea is my own, although it may have been inspired by an exercise from another source).  
 
-The [wiki][wiki] page gives more information on the code, the source of the problem and my approach to solving it.  
-
 The [contents](DIRECTORY.md) page lists the files and folders with a brief description of each category and which language I used to solve a particular problem; the category names are fairly self-explanatory anyway.  
 
-Although I have only relatively recently migrated it to GitHub, some of this code dates from as far back as 2014 -- specifically the C and C++ code, which reflects my interest in those languages at that time, and a particular interest in low-level programming.  
+The [wiki][wiki] page gives more information on the code, the source of the problem and my approach to solving it.  
+
+Although I have only relatively recently migrated it to **GitHub**, some of this code dates from as far back as 2014 -- specifically the **C** and **C++** code, which reflects my interest in those languages at that time, and a particular interest in low-level programming.  
 
 While I'm still fascinated by low-level code and bit-manipulation challenges, my interest in programming has expanded to include different languages and different approaches to problem solving.  
 

@@ -24,7 +24,7 @@ if len(sys.argv) < 2:
     showError()
     sys.exit(1)
 
-# if the input isn't an int show a helpful message
+# if the input isn't an int show a helpful message and exit; nicer than a Python Traceback message
 try:
     arg = int(sys.argv[1]) # if arg isn't a valid int we'll catch the ValueError below
     if arg < 0 or arg > 999: # if arg is a valid int, check it's positive and not greater than 999

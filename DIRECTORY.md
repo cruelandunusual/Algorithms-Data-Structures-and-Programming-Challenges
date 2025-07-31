@@ -49,3 +49,10 @@ The C# problems here are chosen at random from _**LeetCode**_. FizzBuzz is a cla
   * [Find Words Containing Character](Puzzles/CSharp/2942_find_words_containing_character.cs) -- **C#**
   * [FizzBuzz](Puzzles/JavaScript/FizzBuzz.js) -- **JavaScript**
 
+### Recursion
+The Python and JavaScript problems here are from the book _**The Recursive Book of Recursion**_. The code is my own even though the author includes these examples in the book; they are so well known that probably many programmers could write a recursive factorial solution in a language they are comfortable with.  
+The book does have a good explanation of of how recursion actually works (with excellent diagrams of the function call stack frame); _**K&R**_ also explains recursion really well. 
+  * [Factorial](Recursion/JavaScript/factorial.js) -- **JavaScript**
+  * [Factorial](Recursion/Python/factorial.py) -- **Python**
+  * [Sum Ints to N (also known as Triangle Numbers)](Recursion/Python/sumIntsToN.py) -- **Python**
+

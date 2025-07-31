@@ -1,9 +1,11 @@
-# I've used a string literal for multiline comments, which Python will ignore.
-# Python really needs its own multiline comment syntax.
 """
-run this sumIntsToN example with
-> python sumIntsToN <number>
-e.g.:> python sumIntsToN 5
+This example calculates the summation of all the ints up to and
+including N, both recursively and in a standard iterative algorithm.
+
+Usage:
+    > python sumIntsToN.py <number>
+    e.g.
+    > python sumIntsToN.py 5
 
 Fun fact: in maths this is known as triangular numbers, given by the formula
 
@@ -23,11 +25,21 @@ However, this isn't nearly as well known as, for example, factorial, so I've cal
 
 import sys
 
+# Recursive version of sumIntsToN algorithm
 def sumIntsToN(n):
     if n <= 1:
+        # base case
         return n
     else:
+        # recursive case
         return n + sumIntsToN(n - 1)
+
+# Iterative version of sumIntsToN algorithm
+def sumIntsToNIter(n):
+    result = 0
+    for i in range(1, n + 1):
+        result = result + i
+    return result
     
 def showError():
     print("Please provide a positive integer argument [max 999].")
@@ -48,4 +60,38 @@ except ValueError: # catch only ValueError for invalid integer conversion
     showError()
     sys.exit(1)
 else:
-    print(sumIntsToN(arg))
+    print('iterative calculation for sumIntsToN(%s) = %s' % (arg, str(sumIntsToNIter(arg))))
+    print('recursive calculation for sumIntsToN(%s) = %s' % (arg, str(sumIntsToN(arg))))
+
+
+"""
+The sequence of function calls below shows the
+state of the function call stack when calling the recursive version of
+sumIntsToN with a value of 3
+
+sumIntsToN() ## stack frame pushed onto stack
+number = 3
+Returns:
+3 + sumIntsToN(2)
+
+sumIntsToN() ## stack frame pushed onto stack
+number = 2
+Returns:
+2 + sumIntsToN(1)
+
+sumIntsToN() ## stack frame pushed onto stack
+number = 1   ## base case -- stack frame popped off stack
+Returns:
+1
+
+sumIntsToN() ## stack frame popped off stack
+number = 2
+Returns:
+2 + 1
+
+sumIntsToN() ## stack frame popped off stack
+number = 3
+Returns:
+3 + 3 ## final result
+
+"""

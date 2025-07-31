@@ -21,10 +21,13 @@ def factorial(n):
 
 # Iterative version of factorial algorithm
 def factorialIter(n):
-    result = 1
-    for i in range(1, n + 1):
-        result = result * i
-    return result
+    if n == 0:
+        return n
+    else:
+        result = 1
+        for i in range(1, n + 1):
+            result = result * i
+        return result
 
 
 # boilerplate function for showing help if input is incorrect

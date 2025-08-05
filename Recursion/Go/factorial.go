@@ -1,8 +1,12 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"log"
+	"os"
+	"strconv"
+	"strings"
 )
 
 func factorial(num uint64) uint64 {
@@ -14,15 +18,16 @@ func factorial(num uint64) uint64 {
 }
 
 func main() {
-	var number uint64
+	reader := bufio.NewReader(os.Stdin)
+
 	for {
 		fmt.Print("Enter an integer to factorialise: > ")
-
-		_, err := fmt.Scanf("%d", &number)
+		input, err := reader.ReadString('\n')
 		if err != nil {
 			log.Fatal(err)
 		}
-
-		fmt.Printf("the factorial of %d is: %d\n", number, factorial(number))
+		input = strings.TrimSpace(input)
+		i, _ := strconv.ParseUint(input, 0, 64)
+		fmt.Printf("the factorial of %d is %d\n", i, factorial(i))
 	}
 }

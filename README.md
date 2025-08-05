@@ -9,6 +9,7 @@
 <img style="vertical-align: middle; height: 40px; width: 40px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
 <img style="vertical-align: middle; height: 40px; width: 40px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
 <img style="vertical-align: middle; height: 40px; width: 40px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+<img style="vertical-align: middle; height: 40px; width: 40px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" />
 </div>
 
 ## Description
@@ -37,6 +38,7 @@ While I'm still fascinated by low-level code and bit-manipulation challenges, my
 * For **C#** files, use `dotnet script <file.cs>`  
 * For **JavaScript** files, you'll need Node.js; invoke a script with `node <file.js>`  
 * For **Python** files, you'll need Python 3; run the scripts with `python <file.py>`  
+* for **Go** files, use `go run <file.go>`
 
 <!-- External Links -->
 

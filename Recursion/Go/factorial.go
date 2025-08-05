@@ -1,41 +1,28 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
-	"strconv"
-	"strings"
+	"log"
 )
-
 
 func factorial(num uint64) uint64 {
 	if num <= 1 {
 		return num
 	} else {
-		return num * factorial(num - 1)
+		return num * factorial(num-1)
 	}
-} 
-
+}
 
 func main() {
-	reader := bufio.NewReader(os.Stdin)
-
+	var number uint64
 	for {
 		fmt.Print("Enter an integer to factorialise: > ")
-		input, err := reader.ReadString('\n')
+
+		_, err := fmt.Scanf("%d", &number)
 		if err != nil {
-			// fmt.Fprintln allows us to specify an output device, in this case Stderr
-			fmt.Fprintln(os.Stderr, err)
+			log.Fatal(err)
 		}
-		
-		input = strings.TrimSuffix(input, "\n")
-		
-		i, err := strconv.ParseUint(input, 0, 64)
-		if err != nil {
-			// ... handle error
-			fmt.Fprintln(os.Stderr, err)
-    	}
-		fmt.Println(factorial(i))
+
+		fmt.Printf("the factorial of %d is: %d\n", number, factorial(number))
 	}
 }
